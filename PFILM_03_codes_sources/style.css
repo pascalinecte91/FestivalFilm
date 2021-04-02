@@ -1,0 +1,107 @@
+ body {
+     background-color: #5BF5FB;
+     font-size: 1 em;
+     
+ }
+#titre
+{
+    font-size: 1.5em;
+}
+#cgu
+{
+    background: none;
+}
+#reglement
+{
+    background: none;
+}
+
+ nav {
+     margin-bottom: 50px;
+ }
+ .iframe
+{ 
+    padding-left: 15px;
+}
+
+#news
+{
+    border: 1px #808080 solid;
+}
+#visite
+{
+    border: 1px #808080 solid;
+}
+
+ #films {
+     font-size: 1.0em;  
+ }
+
+
+#cinema
+{ margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+
+#reglement {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+}
+#cgu {
+            -webkit-column-count: 3;
+            -moz-column-count: 3;
+        }
+
+ #ticket {
+    margin-bottom: 30px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+}
+
+@media (max-width: 768px){
+    .iframe{
+        margin-bottom: 10px;
+    } 
+     
+}
+
+
+ @media (max-width: 576px) { 
+  
+    .court_metrage
+     { padding-bottom: 10px;            
+     }
+     #reglement {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+     }
+     #cgu {
+            -webkit-column-count: 1;
+            -moz-column-count: 1;
+        }
+    
+     #visiter h2
+     {
+         font-size: 1.5em;
+     }
+     #titre
+     {
+         font-size: 1.1em;
+     }
+}
+     
+ /* Desktops*/
+@media ( min-width: 992px){
+
+    
+}
+@media (min-width:  1200px) {
+    
+   
+
+
+    
