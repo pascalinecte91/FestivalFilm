@@ -11,6 +11,6 @@ Github
 
 5. ouvrir  et copier coller la suite de l'url ( accueil.html  en remplacement de index.html)
 6. bonne consultation
-url 
+
 
 
