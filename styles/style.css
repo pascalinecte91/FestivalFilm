@@ -107,4 +107,32 @@
     .toto {
         display: none !important;
     }
+    .resp {
+        font-size: 12px;
+    }
+    .drop {
+        font-size: 11px;
+    }
+    .ticket {
+        max-width: 30%;
+    }
+    .resa {
+        font-size: 20px;
+        text-align: center;
+    }
+ .sol {
+    font-size: 11px;
+    font-weight: 100;
+    color:rgb(158, 112, 112);
+    text-align: center;
+ }
+ .title {
+    font-size: 2.5rem;
+ }
+ .container {
+    font-size: 0.8rem;
+ }
+ body h4 {
+    font-size: 1rem;
+ }
 }
