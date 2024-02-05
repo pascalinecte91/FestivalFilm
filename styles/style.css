@@ -1,0 +1,110 @@
+ body {
+     background-color: #dae3e3;
+     font-size: 1 em;
+     margin-top: 1rem;
+
+ }
+
+ #titre {
+     font-size: 1.5em;
+ }
+
+ #cgu {
+     background: none;
+ }
+
+ #reglement {
+     background: none;
+ }
+
+ nav {
+     margin-bottom: 50px;
+ }
+
+ .iframe {
+     padding-left: 15px;
+ }
+
+ #news {
+     border: 1px #808080 solid;
+ }
+
+ #visite {
+     border: 1px #808080 solid;
+ }
+
+ #films {
+     font-size: 1.0em;
+ }
+
+ #cinema {
+     margin-bottom: 25px;
+     margin-top: 15px;
+ }
+
+ 
+  
+  .dropdown:hover select {
+    max-height: 200px; /* Ajustez cette valeur en fonction de vos besoins */
+    transition: max-height 0.25s ease-in;
+  }
+  
+ #reglement {
+     -webkit-column-count: 3;
+     -moz-column-count: 3;
+ }
+
+ #cgu {
+     -webkit-column-count: 3;
+     -moz-column-count: 3;
+ }
+.row.test {
+    margin-top: 46px;
+}
+ #ticket {
+     margin-bottom: 30px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ @media (max-width: 768px) {
+     .iframe {
+         margin-bottom: 10px;
+     }
+ }
+
+ @media (max-width: 576px) {
+
+     .court_metrage {
+         padding-bottom: 10px;
+     }
+
+     #reglement,
+     #cgu {
+         -webkit-column-count: 1;
+         -moz-column-count: 1;
+     }
+
+     #visiter h2 {
+         font-size: 1.5em;
+     }
+
+     #titre {
+         font-size: 1.1em;
+     }
+
+ }
+
+ /* Desktops*/
+ @media (min-width: 992px) {
+ }
+
+ @media (min-width: 1200px) {
+ }
+
+ @media (max-width: 525px) {
+    .toto {
+        display: none !important;
+    }
+}

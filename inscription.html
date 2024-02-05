@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Le festival du film de plein air</title>
+    <meta name="description" content="Le festival du film">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+
+<body class="container">
+    <div class="Top">
+    </div>
+
+    <header class="jumbotron mb-0 pt-0" id="jumbotron">
+        <div class="col-lg-12 text-center">
+            <p class="display-4">Le festival des films de plein air</p>
+            <p class id="titre"><strong> INSCRIVEZ- VOUS et GAGNEZ des places de CINEMA</strong></p>
+            <p><strong>Du 5 au 8 Aout 2020 - Gratuit pour TOUS </strong></p>
+        </div>
+        <div class="row d-none d-sm-block ">
+            <div class="col-12 mt-5 mb-n1 d-flex justify-content-center">
+                <img class="img-fluid" src="assets/Le_logo.png">
+            </div>
+        </div>
+
+    </header>
+    <div class="row">
+        <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="accueil.html">ACCUEIL</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="actualites.html">ACTUALITES <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="visiter.html">VISITER</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link " href="inscription.html">Réserver programme</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-sm-8 col-md-8">
+            <h2 class="text-sm-center mt-4"> RESERVEZ en ligne et participez au tirage au sort</h2>
+            <p>Le résultat des tirages au sort sera communiqué rapidement</p>
+            <form class="needs-validation" novalidate id="avalider"></form>
+            <div class="form-group mt-5">
+                <label for="nom">Nom </label>
+                <input class="form-control input-lg" required type="text" name="nom" id="nom" placeholder="Dupont">
+            </div>
+            <div class="invalid-tooltip"></div>
+            <div class="form-group">
+                <label for="nom">Prénom </label>
+                <input class="form-control input-lg" required type="text" name="prenom" id="prenom"
+                    placeholder="Pierre">
+                <div class="invalid-tooltip"></div>
+            </div>
+            <div class="form-group">
+                <label for="mail">Email</label>
+                <input class="form-control input-lg" required type="email" name="mail" id="mail"
+                    placeholder="pierredupont@monemail.fr">
+                <div class="invalid-tooltip"> renseignez vote mail </div>
+            </div>
+            <div class="form-group">
+                <label for="phone">Téléphone</label>
+                <input class="form-control input-lg" required type="tel" name="phone" id="phone"
+                    placeholder="0123456789">
+                <div class="invalid-tooltip"> saisissez votre numero de tel </div>
+            </div>
+            <div class="form-group">
+                <label for="nombre">Nombre de personne présente</label>
+                <input class="form-control input-lg" type="number" name=" nombre personne" id="nombre personne" min="1"
+                    value="1">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class=" col-sm-12 col-md-12" id="programme">
+            <h2 class="text-center mt-5">Programme du Festival</h2><br><br>
+
+            <div class="form-group">
+                <label for="film"> SEANCES - Faites votre choix</label>
+                <div class="dropdown dropup"><i class="fa fa-film mb-3"></i>
+                    <select class="form-control input-md" required name="film" id="film">
+                        <option value selected disabled> C'est parti pour une soirée magique! choisissez !</option>
+                        <optgroup label="5 aout">
+                            <option value="18h30">18h30 Terminator 4</option>
+                            <option value="22h00"> 22h Split</option>
+                            <option value="#">court-métrage</option>
+                        </optgroup>
+                        <optgroup label="6 aout">
+                            <option value="18h30">18h30 Toys Story 4</option>
+                            <option value="22h00">22h Blade Runner 2049</option>
+                            <option value="#">court metrage</option>
+                        </optgroup>
+                        <optgroup label="7 aout">
+                            <option value="18h30">18h30 Le Salaire de la Peur</option>
+                            <option value="22h00">22h 35 Rhums</option>
+                            <option value="#">court metrage</option>
+                        </optgroup>
+                        <optgroup label="8 aout">
+                            <option value="18h30">18h30 Aladdin</option>
+                            <option value="22h00">22h Terminator 4</option>
+                            <option value="#">court metrage</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+            <section class="table-responsive">
+                <table class="table table-bordered table-dark">
+                    <caption>
+                    <thead>
+                        <tr>
+                            <th> Jour</th>
+                            <th>Séances 18h30</th>
+                            <th>Séances 22h00</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>5 Août</td>
+                            <td>Terminator 4</td>
+                            <td>Split 2</td>
+                        </tr>
+                        <tr>
+                            <td>6 Août</td>
+                            <td>Toys Story 4</td>
+                            <td>Blade Runner 2049</td>
+                        </tr>
+                        <tr>
+                            <td>7 Août</td>
+                            <td>Le Salaire de la Peur</td>
+                            <td>35 Rhums</td>
+                        </tr>
+                        <tr>
+                            <td>8 Août</td>
+                            <td>Aladdin</td>
+                            <td>Terminator 4</td>
+                        </tr>
+                    </tbody>
+                    </caption>
+                </table>
+                <a href="#" class="btn btn-md btn-info pull-right"><span class="glyphicon glyphicon-arrow"></span>
+                    ENVOYER</a>
+            </section>
+        </div>
+    </div>
+    <div class="row " id="ticket">
+        <div class="col-md-12 d-flex justify-content-center">
+            <img class="img-fluid rounded mt-5" src="assets/ticket_cinema.jpg" alt="ticket">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center mt-4 mb-5 ">
+            <a href="#Top"><strong>Remonter</strong></a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center ">
+            <nav aria-label="pied_de_page">
+                <a class="btn btn-primary" href="accueil.html"><i class="fa fa-home" data-tooggle="tooltip"
+                        data-placement="top" title="Accueil"></i></a>
+                <a class="btn btn-primary" href="actualites.html"><i class="fa fa-image" data-tooggle="tooltip"
+                        data-placement="top" title="Actualités"></i></a>
+                <a class="btn btn-primary" href="visiter.html"><i class="fas fa-landmark" data-tooggle="tooltip"
+                        data-placement="top" title="Visiter"></i></a>
+                <a class="btn btn-primary" href="inscription.html"><i class="fa fa-calendar" data-tooggle="tooltip"
+                        data-placement="top" title="Inscription et programme"></i></a>
+                <a class="btn btn-primary" href="contact.html"><i class="fa fa-pencil" data-tooggle="tooltip"
+                        data-placement="top" title="Nous contacter"></i></a>
+            </nav>
+        </div>
+    </div>
+    <footer>
+        <div class="d-flex justify-content-center">
+            <div class="col-lg-4 d-flex justify-content-around">
+                <p>2019 © Tous droits réservés</p>
+            </div>
+
+            <div class="col-lg-4">
+                <a href="cgu.html">Mentions legales</a>
+            </div>
+
+            <div class="col-lg-4">
+                <a href="reglement.html">Règlement Tirage au sort</a>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-around">
+            <a class="btn btn-info" href="#"><i class="fa fa-twitter fa-2x"></i></a>
+            <a class="btn btn-primary" href="#"><i class="fa fa-facebook fa-2x"></i></a>
+            <a class="btn btn-info" href="#"><i class="fa fa-flickr fa-2x"></i></a>
+            <a class="btn btn-warning" href="#"><i class="fa fa-spotify fa-2x"></i></a>
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
